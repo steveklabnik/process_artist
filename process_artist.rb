@@ -1,4 +1,7 @@
 require 'ruby-processing'
+
+# This is my first ruby-processing project! Neat!
+
 class ProcessArtist < Processing::App
 
   def setup
