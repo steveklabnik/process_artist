@@ -1,0 +1,48 @@
+<html>
+<head>
+  <title>This is the title</title>
+  <style>
+    body {
+      background-color: #00FF00;
+    }
+    h1 {
+      color: #800080;
+      background-color: #FF0000;
+    }
+    input {
+      font-size: 48px;
+    }
+  </style>
+  <script>
+    window.onload = function() {
+      document.getElementById("hello").addEventListener("click", function() {
+        alert("Hello there!");
+      }, true);
+    }
+  </script>
+</head>
+<body>
+  <% name = "Steve" %>
+  <h1>Welcome to my awesome page!</h1>
+  <p><strong>Hello</strong>,<%= name %></p>
+  <p><%= Time.now %></p>
+  <p>Another paragraph</p>
+  <form action="/" method="POST">
+    <input id="stuff"/>
+    <input id="stuff" type="radio"/>
+    <input id="stuff" type="checkbox"/>
+    <button type="submit">Press me!</button>
+  </form>
+  <p>A third paragraph <a href="#" id="hello">Click me!</a></p>
+  <p>Here is a link: <a href="http://steveklabnik.com">link</a></p>
+  <a href="http://www.ruby-lang.org/"><img src="http://www.ruby-lang.org/images/logo.gif"></a>
+  
+</body>
+</html>
+
+
+
+
+
+
+
